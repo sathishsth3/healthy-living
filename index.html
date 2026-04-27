@@ -90,28 +90,36 @@
                     </nav>
 
                     <div class="offcanvas-container d-lg-none">
-                        <!--
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                            Toggle static offcanvas
-                        </button>
-                    -->
-                        <a href="#" clas type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false">
+                        <a href="#" clas type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                            aria-controls="staticBackdrop" aria-expanded="false">
                             <span><i class="bi bi-list text-success fs-1"></i></span>
                         </a>
-
-                        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                        <div class="offcanvas offcanvas-start bg-dark" data-bs-backdrop="static" tabindex="-1"
                             id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <div>
-                                    I will not close if you click outside of me.
-                                </div>
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu bg-dark">
+                                            <li><a class="dropdown-item text-white" href="#">About Us</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Our Services</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Portfolio</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
